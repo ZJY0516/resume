@@ -1,0 +1,123 @@
+
+% Chinese version
+\documentclass[zh]{resume}
+
+% Adjust icon size (default: same size as the text)
+\iconsize{\Large}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+\faCopyright{} 朱江云 \hspace{0.5em}
+  \creativecommons{by}{4.0} \hspace{0.5em}
+  \githublink{ZJY0516}{resume} \hspace{0.5em}
+  \faEdit{} \today
+}
+
+\name{江云}{朱}
+
+
+\keywords{BSD, Linux, Programming, Python, C, Shell, DevOps, SysAdmin}
+
+% \tagline{\icon{\faBinoculars}} <position-to-look-for>}
+% \tagline{<current-position>}
+
+% Supported shapes: circular (default), square
+% \photo[<shape>]{<width>}{<filename>}
+
+\profile{
+\mobile{199-8466-6173}
+\email{jyz@smail.nju.edu.cn}
+\github{ZJY0516} \\
+\university{南京大学}
+\birthday{2003-05-16}
+\homepage{https://riverclouds.net}
+%\address{上海}
+  % Custom information:
+  % \icontext{<icon>}{<text>}
+  % \iconlink{<icon>}{<link>}{<text>}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+% {\onehalfspacing\hspace{2em}%
+% 南京大学物理专业本科生
+% \par}
+
+%======================================================================
+\sectionTitle{编程技能}{\faWrench}
+%======================================================================
+\begin{competences}
+  \comptence{操作系统}{%
+    \icon{\faLinux} Linux
+  }
+  \comptence{编程语言}{%
+    \icon{\faPython}Python, C, C++, Shell, \LaTeX
+  }
+  \comptence{开发工具}{%
+    \icon{\faGit*}Git, SSH, Make, Docker
+  }
+  %   \comptence{\icon{\faLanguage} 语言}{
+  % \textbf{英语} --- 流畅阅读文献和技术资料
+  %   }
+\end{competences}
+
+%======================================================================
+\sectionTitle{教育背景}{\faGraduationCap}
+%======================================================================
+\begin{educations}
+  \education%
+  {2021.09}%
+  {南京大学}%
+  {物理学院}%
+  {物理学}%
+  \item 排名：25\%
+  \item 修读课程：计算机系统基础，形式语言与自动机，机器学习导论和操作系统等等。
+\end{educations}
+
+%======================================================================
+\sectionTitle{荣誉奖项}{\faAward}
+%======================================================================
+\begin{itemize}
+  \item 全国大学生数学建模竞赛二等奖
+  \item ASC世界大学生超级计算机竞赛二等奖
+  \item 国家励志奖学金（两次）
+\end{itemize}
+
+%======================================================================
+\sectionTitle{个人项目}{\faCode}
+%======================================================================
+\begin{itemize}
+  \item \link{https://github.com/ZJY0516/ics-nju}{\texttt{NEMU}}：
+        riscv32指令集的模拟器，支持大部分指令，包括中断、异常等。
+  \item \texttt{GEMM}：利用矩阵分块、重排和SIMD指令集优化等方法优化矩阵乘法，提高计算效率，达到理论浮点性能的70\%。
+\end{itemize}
+
+%======================================================================
+\sectionTitle{科研经历}{\faAtom}
+%======================================================================
+\begin{itemize}
+  \item 在南京大学\link{https://dii.nju.edu.cn/af/be/c8328a176062/page.htm}
+        {胡晶磊副教授}处通过计算机模拟研究高分子链在膜上的扩散行为。%不是很想写这段经历
+\end{itemize}
+
+
+%======================================================================
+\sectionTitle{学生工作}{\faUserFriends}
+%======================================================================
+\begin{itemize}
+  \item 担任\link{https://itxia.club}{南京大学IT侠互助协会}社长，举办过数次技术讨论沙龙。
+\end{itemize}
+
+%======================================================================
+\sectionTitle{自我评价}{\faMarker}
+%======================================================================
+\begin{itemize}
+  \item 有良好的工程能力和编程能力
+  \item 有自驱力和探索精神，善于学习新知识，对技术有浓厚兴趣
+  \item 有一定了的领导能力和团队协作能力
+\end{itemize}
+\end{document}
